@@ -1,0 +1,10 @@
+{
+  "network": "bitcanna",
+  "rpc": {
+    "address": "http://80.76.43.203:26657",
+    "grpc_address": "http://80.76.43.203:9090"
+  },
+  "api": {
+    "address": "http://80.76.43.203:1317"
+  }
+}
