@@ -1,10 +1,10 @@
 {
     "chain_name": "comdex",
     "api": [
-        "http://comdex-api.livlava.xyz"
+        "https://comdex-rpc.livlava.xyz:1517"
     ],
     "rpc": [
-        "http://comdex-rpc.livlava.xyz"
+        "https://comdex-rpc.livlava.xyz"
     ],
     "grpc": [],
     "snapshot_provider": "",
