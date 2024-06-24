@@ -1,7 +1,7 @@
 {
     "chain_name": "comdex",
     "api": [
-        {"provider": "Livlava", "address": "https://comdex-api.livlava.xyz"}
+        {"provider": "Livlava", "address": "https://comdex-rpc.livlava.xyz:1517/"}
     ],
     "rpc": [
         {"provider": "Livlava", "address": "https://comdex-rpc.livlava.xyz"}
