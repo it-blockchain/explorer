@@ -1,7 +1,7 @@
 {
     "chain_name": "comdex",
     "api": [
-        "https://comdex-rpc.livlava.xyz:1517"
+        "https://comdex-api.livlava.xyz"
     ],
     "rpc": [
         "https://comdex-rpc.livlava.xyz"
