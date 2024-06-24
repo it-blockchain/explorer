@@ -1,0 +1,26 @@
+{
+    "chain_name": "comdex",
+    "api": [
+        "http://comdex-api.livlava.xyz"
+    ],
+    "rpc": [
+        "http://comdex-rpc.livlava.xyz"
+    ],
+    "grpc": [],
+    "snapshot_provider": "",
+    "sdk_version": "1.0",
+    "coin_type": "123",
+    "min_tx_fee": "1000",
+    "addr_prefix": "cmdx",
+    "logo": "/logos/comdex.svg",
+    "theme_color": "#008080",
+    "assets": [
+        {
+            "base": "ucmdx",
+            "symbol": "CMDX",
+            "exponent": "6",
+            "coingecko_id": "comdex",
+            "logo": "/logos/comdex.svg"
+        }
+    ]
+}
