@@ -1,0 +1,29 @@
+{
+    "chain_name": "allora-testnet",
+    "registry_name": "Allora-testnet",
+    "api": [
+        {
+            "provider": "upshot",
+            "address": "https://allora-api.testnet.allora.network"
+        }
+    ],
+    "rpc": [
+        {
+            "provider": "upshot",
+            "address": "https://allora-rpc.testnet.allora.network"
+        }
+    ],
+    "sdk_version": "0.45.1",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "addr_prefix": "allo",
+    "assets": [
+        {
+            "base": "uallo",
+            "symbol": "ALLO",
+            "exponent": "18"
+        }
+    ],
+    "max_total_supply": "1000000000000000000000000000",
+    "logo": "/chain-logos/allora.jpeg"
+}
