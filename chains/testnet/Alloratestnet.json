@@ -1,16 +1,16 @@
 {
-    "chain_name": "allora-testnet",
-    "registry_name": "Allora-testnet",
+    "chain_name": "Allora-testnet-1",
+    "registry_name": "Allora-testnet-1",
     "api": [
         {
             "provider": "upshot",
-            "address": "https://allora-api.testnet.allora.network"
+            "address": "https://allora-rpc.testnet-1.testnet.allora.network"
         }
     ],
     "rpc": [
         {
             "provider": "upshot",
-            "address": "https://allora-rpc.testnet.allora.network"
+            "address": "https://allora-rpc.testnet-1.testnet.allora.network"
         }
     ],
     "sdk_version": "0.45.1",
