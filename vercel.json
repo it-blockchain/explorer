@@ -1,0 +1,27 @@
+{
+  "redirects": [
+    {
+      "source": "/old-url",
+      "destination": "/new-url",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/allora-testnet-1/staking",
+      "destination": "/index.php"
+    },
+    {
+      "source": "/allora-testnet-1/block",
+      "destination": "/index.php"
+    },
+    {
+      "source": "/allora-testnet-1",
+      "destination": "/index.php"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.php"
+    }
+  ]
+}
