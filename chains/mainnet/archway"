@@ -1,0 +1,8 @@
+{
+  "archway": {
+    "lcd": "https://archway.nodejumper.io:1317/",  // ваш REST API
+    "rpc": "https://archway.nodejumper.io:26657/", // RPC (если нужно)
+    "bech32_prefix": "archway",
+    "denom": "uarch"
+  }
+}
