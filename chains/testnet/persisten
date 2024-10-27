@@ -1,0 +1,29 @@
+{
+  "chain_name": "test-chain-g0l9Ng",
+  "registry_name": "Test Chain",
+  "api": [
+    {
+      "provider": "local",  // Имя провайдера API
+      "address": "http://185.250.36.20:1317"  // Адрес API, замените <ваш_IP> на актуальный IP
+    }
+  ],
+  "rpc": [
+    {
+      "provider": "local",  // Имя провайдера RPC
+      "address": "http://185.250.36.20:26657"  // Адрес RPC, 
+    }
+  ],
+  "sdk_version": "0.45.1",  // Версия SDK, 
+  "coin_type": "118",  // Обычно 118 для большинства сетей Cosmos SDK
+  "min_tx_fee": "800",  // Минимальная комиссия, 
+  "addr_prefix": "test",  // 
+  "assets": [
+    {
+      "base": "stake",  // Базовое название токена, найденное в поле "bond_denom" -> "staking.params.bond_denom"
+      "symbol": "TEST",  // Символ вашего токена, можно задать для отображения
+      "exponent": "6"  // Степень для вашего токена (обычно 6 для токенов Cosmos)
+    }
+  ],
+  "max_total_supply": "1000000000000000000",  // Максимальное предложение токенов
+  "logo": "/chain-logos/testchain.jpeg"  // Путь к логотипу, укажите логотип вашей цепочки, если нужно
+}
