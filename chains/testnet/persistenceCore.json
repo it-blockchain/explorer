@@ -1,32 +1,29 @@
 {
-  "chain_name": "v11.15.0-rc0", 
-  "api": [
-    "http://185.250.36.20:1317"
-  ],
-  "rpc": [
-    "http://185.250.36.20:26657"
-  ],
-  "snapshot_provider": "",
-  "sdk_version": "v0.45.1",
-  "coin_type": "118",  
-  "min_tx_fee": "800",  
-  "addr_prefix": "test",  
-  "logo": "/logos/test-chain.svg",
-  "theme_color": "#123456",  
-  "assets": [
-    {
-      "base": "stake",
-      "symbol": "STAKE",  
-      "exponent": "6",  
-      "coingecko_id": "stake",
-      "logo": "/logos/stake.svg"
-    },
-    {
-      "base": "uothertoken",
-      "symbol": "OTH",
-      "exponent": "6",
-      "coingecko_id": "other-token",
-      "logo": "/logos/othertoken.svg"
-    }
-  ]
+    "chain_name": "test-core-2",
+    "registry_name": "Test Chain",
+    "api": [
+        {
+            "provider": "upshot",
+            "address": "https://185.250.36.20"
+        }
+    ],
+    "rpc": [
+        {
+            "provider": "upshot",
+            "address": "https://185.250.36.20"
+        }
+    ],
+    "sdk_version": "0.45.1",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "addr_prefix": "uxprt",
+    "assets": [
+        {
+            "base": "uxprt",
+            "symbol": "uxprt",
+            "exponent": "18"
+        }
+    ],
+    "max_total_supply": "1000000000000000000000000000",
+    "logo": ""
 }
