@@ -3,14 +3,14 @@
     "registry_name": "Test Chain",
     "api": [
         {
-            "provider": "upshot",
-            "address": "https://185.250.36.20"
+            "provider": "local",
+            "address": "http://185.250.36.20:1317"
         }
     ],
     "rpc": [
         {
-            "provider": "upshot",
-            "address": "https://185.250.36.20"
+            "provider": "local",
+            "address": "http://185.250.36.20:26657"
         }
     ],
     "sdk_version": "0.45.1",
@@ -20,8 +20,8 @@
     "assets": [
         {
             "base": "uxprt",
-            "symbol": "uxprt",
-            "exponent": "18"
+            "symbol": "XPRT",
+            "exponent": "6"
         }
     ],
     "max_total_supply": "1000000000000000000000000000",
