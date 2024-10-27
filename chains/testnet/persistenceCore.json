@@ -1,0 +1,32 @@
+{
+  "chain_name": "v11.15.0-rc0", 
+  "api": [
+    "http://185.250.36.20:1317"
+  ],
+  "rpc": [
+    "http://185.250.36.20:26657"
+  ],
+  "snapshot_provider": "",
+  "sdk_version": "v0.45.1",
+  "coin_type": "118",  
+  "min_tx_fee": "800",  
+  "addr_prefix": "test",  
+  "logo": "/logos/test-chain.svg",
+  "theme_color": "#123456",  
+  "assets": [
+    {
+      "base": "stake",
+      "symbol": "STAKE",  
+      "exponent": "6",  
+      "coingecko_id": "stake",
+      "logo": "/logos/stake.svg"
+    },
+    {
+      "base": "uothertoken",
+      "symbol": "OTH",
+      "exponent": "6",
+      "coingecko_id": "other-token",
+      "logo": "/logos/othertoken.svg"
+    }
+  ]
+}
