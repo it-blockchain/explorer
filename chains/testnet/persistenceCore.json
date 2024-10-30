@@ -1,6 +1,6 @@
 {
     "chain_name": "test-core-2",
-    "api":"http://185.250.36.20:1317",
+    "api":"http://185.250.36.20:26657",
     "sdk_version": "0.45.6",
     "addr_prefix": "persistence",
     "min_tx_fee": "3000",
